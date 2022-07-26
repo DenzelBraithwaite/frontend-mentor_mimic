@@ -1,0 +1,17 @@
+@import 'components/button.css';
+
+:root {
+    --grey: #444;
+    --blue: #1e90ff;
+    --red: #d8414e;
+    --cyan: #ffffff;
+    --green: #ffffff;
+    --pink: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
