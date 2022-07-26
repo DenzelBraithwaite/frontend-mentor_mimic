@@ -1,3 +1,21 @@
-a:link {
-    color: rgb(196, 196, 211);
+.btn {
+    background-color: #d8414e;
+    background-color: var(--blue);
+    padding: 16px;
+    border-radius: 60px;
+    cursor: pointer;
+    text-decoration: none;
 }
+
+.btn:hover {
+    /* transform: scale(2); */
+    /* transition: transform 0.3s ease-in 0s; */
+    box-shadow: 1px 2px 8px #00000038;
+}
+
+/* a:link,
+a:visited {
+    color: rgb(214, 92, 177);
+    padding: 16px;
+    background-color: blueviolet;
+} */
