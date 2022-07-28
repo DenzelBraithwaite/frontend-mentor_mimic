@@ -1,17 +1,22 @@
 @import 'components/button.css';
+@import 'components/navbar.css';
 
 :root {
-    --grey: #444;
-    --blue: #1e90ff;
-    --red: #d8414e;
-    --cyan: #ffffff;
-    --green: #ffffff;
-    --pink: #ffffff;
+    --grey: #1c2022;
+    --blue: #3f54a3;
+    --red: #ed2c49;
+    --cyan: #69becd;
+    --green: #aad741;
+    --pink: #cf6390;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #444;
+    color: var(--grey);
+}
+
+.text-white {
+    color: white;
 }

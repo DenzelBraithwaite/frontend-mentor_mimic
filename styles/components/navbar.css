@@ -1,0 +1,14 @@
+.notification-bar {
+    background: var(--blue);
+    padding: 16px;
+    color: #fff;
+}
+
+.notification-bar__link,
+.notification-bar__link:visited {
+    color: #fff;
+}
+
+.notification-bar__link:hover {
+    text-decoration: none;
+}
