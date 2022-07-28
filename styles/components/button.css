@@ -1,23 +1,39 @@
 .btn {
     color: #fff;
     font-size: 14px;
-    padding: 8px 20px;
     border-radius: 60px;
     cursor: pointer;
     text-decoration: none;
+    text-transform: none;
 }
 
+/* Scale not yet supported in Chrome */
 .btn:hover {
-    scale: 2;
     box-shadow: 1px 2px 8px #00000038;
     /* transition: transform 0.3s ease-in 0s; */
 }
 
-.btn-github {
-    text-transform: none;
+.btn-github-grey {
     background-color: var(--grey);
+    padding: 8px 20px;
 }
 
-.btn-red {
-    background-color: #d8414e;
+.btn-github-grey:hover {
+    background-color: var(--grey);
+    padding: 10px 22px;
+}
+
+.btn-github-red {
+    font-size: 18px;
+    background-color: var(--red);
+    padding: 12px 64px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-github-red:hover {
+    padding: 12px 64px;
+    background-color: var(--red);
+    padding: 14px 68px;
 }

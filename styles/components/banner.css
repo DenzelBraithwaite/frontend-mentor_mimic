@@ -1,0 +1,79 @@
+.banner {
+    margin-bottom: 160px;
+    width: 1000px;
+    position: relative;
+}
+
+.banner-text {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.banner-content::before {
+    content: '';
+    background-image: url('../../resources/img/banner_background_image.svg');
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 600px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-content::after {
+    content: '';
+    background-image: url('../../resources/img/banner_background_image2.svg');
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-title-improve::before {
+    content: 'Improve';
+    color: var(--blue);
+    background-image: url('../../resources/img/zigzag_underline.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    width: 1400px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.banner-content-left {
+    flex: 0 0 50%;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-title {
+    color: var(--blue);
+    font-size: 52px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.post-banner {
+    text-align: center;
+}
+
+.post-banner-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 60px;
+}
