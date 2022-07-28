@@ -1,23 +1,23 @@
 .btn {
-    background-color: #d8414e;
-    background-color: var(--blue);
-    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
     border-radius: 60px;
     cursor: pointer;
     text-decoration: none;
-    width: 100px;
-    height: 100px;
 }
 
 .btn:hover {
     scale: 2;
-    /* transition: transform 0.3s ease-in 0s; */
     box-shadow: 1px 2px 8px #00000038;
+    /* transition: transform 0.3s ease-in 0s; */
 }
 
-/* a:link,
-a:visited {
-    color: rgb(214, 92, 177);
-    padding: 16px;
-    background-color: blueviolet;
-} */
+.btn-github {
+    text-transform: none;
+    background-color: var(--grey);
+}
+
+.btn-red {
+    background-color: #d8414e;
+}

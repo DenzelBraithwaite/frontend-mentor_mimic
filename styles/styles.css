@@ -1,3 +1,7 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&display=swap');
+
+/* Components */
 @import 'components/button.css';
 @import 'components/navbar.css';
 
@@ -8,6 +12,7 @@
     --cyan: #69becd;
     --green: #aad741;
     --pink: #cf6390;
+    --light-blue-trim: #dbe5e6;
 }
 
 * {
@@ -15,6 +20,7 @@
     margin: 0;
     padding: 0;
     color: var(--grey);
+    font-family: 'Heebo', sans-serif;
 }
 
 .text-white {
