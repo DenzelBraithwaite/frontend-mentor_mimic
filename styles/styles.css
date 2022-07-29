@@ -12,6 +12,7 @@
     --blue: #3f54a3;
     --grey-blue: #cad5d6;
     --light-blue: #e7ebf9;
+    --light-grey: #727373;
     --red: #ed2c49;
     --cyan: #69becd;
     --green: #aad741;
@@ -38,6 +39,12 @@
     border-radius: 10px;
 }
 
+.small-container {
+    position: relative;
+    width: 12%;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
@@ -48,10 +55,6 @@ ul {
 
 .text-black {
     color: #000;
-}
-
-.background-blue {
-    background-color: var(--blue);
 }
 
 header {
@@ -75,4 +78,24 @@ header {
 
 .post-header-icon-text {
     font-size: 14px;
+}
+
+.all-challenges-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.all-challenges-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: var(--blue);
+    width: 100%;
+    padding: 1px;
+}
+
+.all-challenges-link:hover::before {
+    background-color: transparent;
 }

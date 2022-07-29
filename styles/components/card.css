@@ -8,6 +8,7 @@
     margin: 0 auto;
     flex: 0 1 auto;
     flex-flow: wrap;
+    margin-bottom: 80px;
 }
 
 .card-section-title {
@@ -35,8 +36,10 @@
 }
 
 .card-challenge-link {
+    display: inline-block;
     text-decoration: none;
     font-size: 20px;
+    margin-bottom: 16px;
 }
 
 .card-challenge-premium-badge {
@@ -61,4 +64,23 @@
 
 .card-challenge-details {
     padding: 16px;
+}
+
+.card-challenge-difficulty {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-challenge-languages {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.card-challenge-level {
+    border: 1px solid red;
+    border-radius: 12px;
+}
+
+.card-challenge-text {
+    color: var(--light-grey);
 }
