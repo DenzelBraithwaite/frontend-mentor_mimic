@@ -5,15 +5,17 @@
 @import 'components/button.css';
 @import 'components/navbar.css';
 @import 'components/banner.css';
+@import 'components/card.css';
 
 :root {
     --grey: #1c2022;
     --blue: #3f54a3;
+    --grey-blue: #cad5d6;
+    --light-blue: #e7ebf9;
     --red: #ed2c49;
     --cyan: #69becd;
     --green: #aad741;
     --pink: #cf6390;
-    --light-blue-trim: #cad5d6;
 }
 
 * {
@@ -30,6 +32,12 @@
     max-width: 1200px;
 }
 
+.wide-container {
+    margin: 0 auto;
+    background: linear-gradient(rgb(62, 84, 163) 25%, transparent 25%);
+    border-radius: 10px;
+}
+
 ul {
     list-style: none;
 }
@@ -40,6 +48,10 @@ ul {
 
 .text-black {
     color: #000;
+}
+
+.background-blue {
+    background-color: var(--blue);
 }
 
 header {
