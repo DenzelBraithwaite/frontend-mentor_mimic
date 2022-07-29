@@ -45,3 +45,22 @@ ul {
 header {
     padding-bottom: 80px;
 }
+
+.post-header-icons {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.post-header-icon {
+    font-size: 60px;
+    color: var(--blue);
+    margin-bottom: 16px;
+}
+
+.post-header-icon-title {
+    margin-bottom: 16px;
+}
+
+.post-header-icon-text {
+    font-size: 14px;
+}
