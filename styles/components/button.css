@@ -8,6 +8,7 @@
 }
 
 /* Scale not yet supported in Chrome */
+/* Test now, should be supported - Aug 8th */
 .btn:hover {
     box-shadow: 1px 2px 8px #00000038;
     /* transition: transform 0.3s ease-in 0s; */
