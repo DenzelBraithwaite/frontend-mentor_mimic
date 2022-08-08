@@ -92,6 +92,7 @@
 
 .challenge-card-difficulty {
     display: flex;
+    margin-bottom: 16px;
     justify-content: space-between;
 }
 
@@ -100,7 +101,6 @@
     display: flex;
     justify-content: space-evenly;
     gap: 8px;
-    margin-bottom: 16px;
 }
 
 .card-level-wrapper-newbie {
@@ -131,16 +131,19 @@
 }
 
 .challenge-card-level-one {
+    /* padding: 0 6px; */
     color: #fff;
     background-color: var(--cyan);
 }
 
 .challenge-card-level-two {
+    /* padding: 0 6px; */
     color: #fff;
     background-color: var(--green);
 }
 
 .challenge-card-level-five {
+    /* padding: 0 6px; */
     color: #fff;
     background-color: var(--red);
 }
