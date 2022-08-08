@@ -71,6 +71,8 @@
 
 .card-challenge-languages {
     display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
     margin-bottom: 16px;
 }
 
