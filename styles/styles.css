@@ -6,6 +6,7 @@
 @import 'components/navbar.css';
 @import 'components/banner.css';
 @import 'components/card.css';
+@import 'components/form.css';
 
 :root {
     --grey: #1c2022;
@@ -96,6 +97,7 @@ header {
     display: block;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 120px;
 }
 
 .all-challenges-link::before {

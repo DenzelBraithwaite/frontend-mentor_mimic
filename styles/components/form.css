@@ -1,0 +1,29 @@
+.form-section {
+    background-color: var(--blue);
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.slack-logo {
+    width: 200px;
+    margin: 40px 0 32px;
+}
+
+.form-title {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    word-spacing: 0.2em;
+    margin-bottom: 32px;
+}
+
+.form-text {
+    color: #fff;
+    font-size: 18px;
+    word-spacing: 0.2em;
+    margin-bottom: 32px;
+}
+
+.form-input {
+    margin-bottom: 200px;
+}
