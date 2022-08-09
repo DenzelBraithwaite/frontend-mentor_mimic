@@ -106,44 +106,65 @@
 .card-level-wrapper-newbie {
     display: flex;
     border: 1px solid var(--cyan);
+    border-radius: 4px;
 }
 
 .card-level-wrapper-junior {
     display: flex;
     border: 1px solid var(--green);
+    border-radius: 4px;
 }
 
 .card-level-wrapper-guru {
     display: flex;
     border: 1px solid var(--red);
+    border-radius: 4px;
 }
 
 .challenge-card-level-newbie {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 6px;
+    border: 1px solid transparent;
+    border-radius: 16px;
     color: var(--cyan);
 }
 
 .challenge-card-level-junior {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 6px;
+    border: 1px solid transparent;
+    border-radius: 16px;
     color: var(--green);
 }
 
 .challenge-card-level-guru {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 6px;
+    border: 1px solid transparent;
+    border-radius: 16px;
     color: var(--red);
 }
 
 .challenge-card-level-one {
-    /* padding: 0 6px; */
+    padding: 0 6px;
     color: #fff;
     background-color: var(--cyan);
 }
 
 .challenge-card-level-two {
-    /* padding: 0 6px; */
+    padding: 0 6px;
     color: #fff;
     background-color: var(--green);
 }
 
 .challenge-card-level-five {
-    /* padding: 0 6px; */
+    padding: 0 6px;
     color: #fff;
     background-color: var(--red);
 }
