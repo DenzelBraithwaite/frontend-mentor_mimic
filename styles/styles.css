@@ -7,6 +7,7 @@
 @import 'components/banner.css';
 @import 'components/card.css';
 @import 'components/form.css';
+@import 'components/footer.css';
 
 :root {
     --grey: #1c2022;
@@ -26,6 +27,10 @@
     padding: 0;
     color: var(--grey);
     font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
 }
 
 .main-container {
@@ -56,6 +61,10 @@ ul {
 
 .text-black {
     color: #000;
+}
+
+.text-grey {
+    color: #737373;
 }
 
 .text-cyan {

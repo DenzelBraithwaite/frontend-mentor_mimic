@@ -38,3 +38,13 @@
     background-color: var(--red);
     padding: 14px 68px;
 }
+
+.btn-subscribe {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    border: none;
+    background-color: var(--red);
+    padding: 12px 32px;
+}
