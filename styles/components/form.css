@@ -33,4 +33,12 @@
 
 .form-input {
     margin-bottom: 200px;
+    background-color: var(--blue);
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.form-input::placeholder {
+    color: #9fa9d2;
+    font-size: 16px;
 }
