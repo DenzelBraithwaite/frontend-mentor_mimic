@@ -1,7 +1,8 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Components */
+/* UI Components */
 @import 'components/button.css';
 @import 'components/navbar.css';
 @import 'components/banner.css';
@@ -9,6 +10,7 @@
 @import 'components/form.css';
 @import 'components/footer.css';
 
+/* Color palette */
 :root {
     --grey: #1c2022;
     --blue: #3f54a3;
@@ -21,6 +23,7 @@
     --pink: #cf6390;
 }
 
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
