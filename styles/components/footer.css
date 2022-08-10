@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    word-spacing: 0.2em;
+    word-spacing: 4px;
 }
 
 .footer-legal {

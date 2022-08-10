@@ -14,7 +14,7 @@
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 4px;
     text-align: center;
     padding: 60px 0;
     border-radius: 10px 10px 0 0;
@@ -68,7 +68,7 @@
 .challenge-card-new-badge {
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 4px;
 }
 
 .badge-asterix {

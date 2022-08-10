@@ -1,6 +1,7 @@
 .btn {
     color: #fff;
     font-size: 14px;
+    border-style: none;
     border-radius: 60px;
     cursor: pointer;
     text-decoration: none;
@@ -39,11 +40,22 @@
     padding: 14px 68px;
 }
 
+.btn-form-submit {
+    background-color: #fff;
+    color: var(--blue);
+    padding: 12px 64px;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
 .btn-subscribe {
     text-transform: uppercase;
     font-style: italic;
     font-size: 18px;
-    letter-spacing: 0.1em;
+    letter-spacing: 1px;
     border: none;
     background-color: var(--red);
     padding: 12px 32px;
