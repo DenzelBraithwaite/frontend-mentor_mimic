@@ -31,4 +31,6 @@ These small projects are to keep my frontend skills fresh as I continue to learn
 
 <br>
 
+**_I will have to fix the images, just noticed they all broke_**
+
 Thanks for taking the time to read, stay awesome 😎
